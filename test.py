@@ -3,7 +3,7 @@ import torch.utils.data as Data
 from torchvision import transforms
 from torchvision.datasets import FashionMNIST
 from model import LeNet
-
+#   测试
 def test_data_process():
     test_data = FashionMNIST(root='./data',
                              train=False,
